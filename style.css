@@ -1,0 +1,758 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 2rem 5rem;
+}
+
+.banner {
+    background-image: url("./assets/background-web.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0rem;
+}
+
+.careerlabs-logo {
+    text-align: center;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.banner-content-1 p:first-child,
+.banner-content-1 p:nth-child(2) {
+    font-weight: 600;
+    line-height: 68px;
+}
+
+.banner-content-1 p:first-child {
+    font-size: 40px;
+    color: white;
+}
+
+.banner-content-1 p:nth-child(2) {
+    font-size: 50px;
+    color: yellow;
+}
+
+.banner-content-1 p:nth-child(3) {
+    margin-top: 2rem;
+    font-size: 20px;
+    line-height: 170%;
+    color: white;
+}
+
+.curvy-container {
+    margin-top: 3rem;
+}
+
+.eligibility {
+    height: 5rem;
+    background-color: #0f7dda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 150%;
+}
+
+.eligibility p:nth-child(2) {
+    color: #FFBC01;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.eligibility p:nth-child(3) {
+    color: white;
+}
+
+.register {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.register p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #052A4E;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form input {
+    width: 34.5%;
+    height: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.register-button {
+    background: linear-gradient(84.05deg, #0D63F1 2.91%, #1791ED 103.25%);
+    border-radius: 53px;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.why-careerlabs {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.why-careerlabs p:first-child {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 39px;
+    color: #052A4E;
+    text-align: center;
+}
+
+.why-careerlabs p:nth-child(2),
+.why-careerlabs p:nth-child(3) {
+    font-size: 20px;
+    line-height: 180%;
+    color: #413F4E;
+}
+
+.why-careerlabs p {
+    margin-bottom: 1rem;
+}
+
+.features-cards {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.assured-features {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #02ccba;
+    flex: 1 1 100px;
+    margin: 25px 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-container {
+    width: 100px;
+    border: 2px solid #d8d8d8;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+    padding: 1rem;
+    top: -37px;
+}
+
+.img-container img {
+    width: 70%;
+}
+
+
+.features {
+    display: flex;
+    flex-direction: column;
+    margin-top: -27px;
+}
+
+.features h1 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.features p {
+    margin-top: 10px;
+    color: #696767;
+}
+
+.how-does-this-work p {
+    font-size: 2rem;
+    line-height: 2.43rem;
+    color: #052A4E;
+    text-align: center;
+}
+
+
+.how-does-this-work-img {
+    background-image: url("./assets/Img_How\ does\ this\ work_.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 17.5rem;
+    background-position-x: center;
+}
+
+.career-tracks p {
+    font-size: 2rem;
+    line-height: 2.43rem;
+    text-align: center;
+    color: #052A4E;
+    margin-bottom: 1rem;
+}
+
+
+.career-tracks-imgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.career-tracks-imgs div {
+    margin-right: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.program-names {
+    display: flex;
+    justify-content: space-around;
+    height: 8rem;
+}
+
+hr {
+    margin-bottom: 3rem;
+}
+
+
+.fullstack {
+    font-size: 2rem;
+    line-height: 150%;
+    text-align: center;
+    color: #052A4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datascience {
+    font-size: 2rem;
+    line-height: 150%;
+    font-weight: 600;
+    border-bottom: solid #1179EF 4px;
+    background-color: #E7F2FD;
+    text-align: center;
+    color: #052A4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.program-text {
+    font-size: 1.25rem;
+    line-height: 180%;
+    text-align: center;
+    color: #413F4E;
+    margin-bottom: 3rem;
+}
+
+.program-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    background-color: #FFF2CE;
+}
+
+.program-info-1 p:first-child {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 180%;
+    text-align: center;
+    color: #052A4E;
+}
+
+.program-info-1 p:nth-child(2) {
+    font-size: 1.5rem;
+    line-height: 180%;
+    text-align: center;
+    color: #052A4E;
+}
+
+.highlights-skillsCovered {
+    display: flex;
+}
+
+.highlights-skillsCovered-heading {
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    color: #052A4E;
+    margin-bottom: 1rem;
+
+}
+
+.highlights {
+    margin-right: 16rem;
+}
+
+.highlight {
+    display: flex;
+}
+
+.highlight div:first-child {
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight div:nth-child(2) {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 180%;
+    text-align: center;
+    color: #413F4E;
+}
+
+.skills-covered {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 180%;
+    color: #413F4E;
+}
+
+.placements p {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    color: #052A4E;
+    text-align: center;
+}
+
+.placements-imgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.placements-imgs img {
+    width: 17.87rem;
+    height: 6.87rem;
+    margin-right: 0.7rem;
+}
+
+.emi p {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #052A4E;
+    margin-bottom: 1rem;
+}
+
+.emi button {
+    width: 15.5rem;
+    height: 3.5rem;
+    border-radius: 3.31rem;
+    background: linear-gradient(84.05deg, #0D63F1 2.91%, #1791ED 103.25%);
+    border: none;
+    font-size: 1.125rem;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.emi div {
+    text-align: center;
+}
+
+.testimonials {
+    background-color: #F8F8FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 70%;
+    padding: 1rem 1rem;
+}
+
+.testimonials>p {
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    color: #052A4E;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+}
+
+.review-img {
+    margin-right: 1rem;
+}
+
+.review-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-text div:first-child {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: #052A4E;
+}
+
+.review-text div:nth-child(2) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #413F4E;
+}
+
+.name-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.name-company p:first-child {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #052A4E;
+}
+
+
+.about-careerlabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-careerlabs-img {
+    background-image: url(./assets/Img_\ About\ CareerLabs\ web.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 22.5rem;
+    width: 37.75rem;
+    /* border: 1px solid red; */
+}
+
+.about-careerlabs-text {
+    width: 37rem;
+}
+
+.about-careerlabs-text1 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.43rem;
+    color: #052A4E;
+}
+
+.about-careerlabs-text2 {
+    font-size: 1.125rem;
+    line-height: 180%;
+    color: #413F4E;
+}
+
+#footer {
+    height: 5rem;
+    background: #001B78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-form {
+    background-color: #EAEAFF;
+}
+
+#footer p {
+    color: #ffffff;
+}
+
+/* mobile view  */
+
+@media (max-width: 576px) {
+    .container {
+       padding:1rem;
+    }
+
+    .banner {
+        background-image: url("./assets/background-mobile.png");
+        padding-bottom: 0rem;
+    }
+
+    .banner-content {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .banner-content p {
+        text-align: center;
+    }
+
+    .banner-content-1 p:first-child,
+    .banner-content-1 p:nth-child(2) {
+        font-weight: 600;
+        line-height: 150%;
+    }
+
+    .banner-content-1 p:first-child {
+        font-size: 18px;
+    }
+
+    .banner-content-1 p:nth-child(2) {
+        font-size: 24px;
+    }
+
+    .banner-content-1 p:nth-child(3) {
+        margin-top: 1rem;
+        font-size: 14px;
+        line-height: 170%;
+        color: white;
+    }
+
+    .curvy-container {
+        text-align: center;
+    }
+
+    .curvy-container img {
+        width: 18.75rem;
+        height: 2.125rem;
+    }
+
+    .banner-content-2 {
+        text-align: center;
+    }
+
+    .banner-content-2 img {
+        width: 13.75rem;
+        height: 16.68rem;
+
+    }
+
+    .eligibility {
+        height: 3.5rem;
+        font-size: 0.875rem;
+        line-height: 150%;
+    }
+
+    .eligibility img {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    form input {
+        width: 91.11%;
+        height: 2rem;
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        color: blue;
+    }
+
+    .register {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .register p {
+        font-size: 1.125rem;
+        line-height: 150%;
+    }
+
+    .register-button {
+        height: 3rem;
+        font-size: 0.875rem;
+    }
+
+    .why-careerlabs {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .why-careerlabs p:first-child {
+        font-size: 1.125rem;
+        line-height: 150%;
+    }
+
+    .why-careerlabs p:nth-child(2),
+    .why-careerlabs p:nth-child(3) {
+        font-size: 0.875rem;
+        line-height: 180%;
+    }
+
+    .why-careerlabs p {
+        margin-bottom: 0.5rem;
+    }
+
+
+    .img-container {
+        width: 50px;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+
+    .how-does-this-work p {
+        font-size: 1.125rem;
+        line-height: 150%;
+    }
+
+    .how-does-this-work-img {
+        background-image: url("./assets/Img_How\ does\ this\ work-mobile.png");
+        min-height: 4.43rem;
+    }
+
+    .career-tracks p {
+        font-size: 1.125rem;
+        line-height: 150%;
+    }
+
+
+    .career-tracks-imgs {
+        display: block;
+        text-align: center;
+    }
+
+    .career-tracks-imgs div {
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .program-names {
+        height: 6.75rem;
+    }
+
+    hr {
+        margin-bottom: 1rem;
+    }
+
+
+    .fullstack {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+        line-height: 150%;
+    }
+
+    .datascience {
+        font-size: 1rem;
+        line-height: 150%;
+    }
+
+    .program-text {
+        margin-bottom: 1rem;
+        font-size: 0.875rem;
+
+    }
+
+    .program-info {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+        background-color: #FFF2CE;
+    }
+
+    .program-info-1 p:first-child {
+        font-size: 1rem;
+    }
+
+    .program-info-1 p:nth-child(2) {
+        font-size: 0.75rem;
+        line-height: 150%;
+    }
+
+
+    .highlights-skillsCovered {
+        display: block;
+    }
+
+    .highlights-skillsCovered-heading {
+        margin-bottom: 1rem;
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+    }
+
+    .highlights {
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .highlight div:nth-child(2) {
+        font-size: 0.875rem;
+        line-height: 180%;
+    }
+
+    .skills-covered {
+        font-size: 0.875rem;
+    }
+
+    .placements p {
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+    }
+
+    .placements-imgs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .placements-imgs img {
+        width: 9.75rem;
+        height: 3.75rem;
+        margin-right: 0rem;
+    }
+
+    .review {
+        display: block;
+    }
+
+    .review-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .about-careerlabs {
+        display: block;
+    }
+
+    .about-careerlabs-img {
+        background-image: url(./assets/img_About\ CareerLabs\ mobile.png);
+        width: 100%;
+    }
+
+    .about-careerlabs-text {
+        width: 100%;
+    }
+
+    .about-careerlabs-text1 {
+        font-size: 1.125rem;
+        line-height: 1.37rem;
+    }
+
+    .about-careerlabs-text2 {
+        font-size: 0.875rem;
+        line-height: 180%;
+    }
+
+    #footer {
+        height: 3.5rem;
+    }
+
+}
